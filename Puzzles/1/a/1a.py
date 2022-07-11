@@ -1,0 +1,5 @@
+input_file = open("input.txt", "r")
+lines = input_file.readlines()
+frequencies = map(int, lines)
+sum = sum(frequencies)
+print(sum)
